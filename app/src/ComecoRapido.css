@@ -1,0 +1,7 @@
+/* Em seu CSS */
+
+.avatar {
+  border-radius: 50%;
+  border: 1px solid red;
+  width: 100px;
+}
