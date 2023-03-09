@@ -4,15 +4,15 @@ import Button from "react-bootstrap/Button";
 import "./ComecoRapido.css";
 
 const ComecoRapido = () => {
-  function Botao() {
-    const [contador, setContador] = useState(0);
+  const [contador, setContador] = useState(0);
 
-    function clique() {
-      setContador(contador + 1);
-    }
+  function clique() {
+    setContador(contador + 1);
+  }
 
+  function Botao({ contador, onClick }) {
     return (
-      <Button variant='primary' onClick={clique}>
+      <Button variant='primary' onClick={onClick}>
         Clicou {contador} vezes
       </Button>
     );
@@ -20,9 +20,9 @@ const ComecoRapido = () => {
 
   return (
     <div>
-      <h1>Contadores são atualizados separadamente</h1>
-      <Botao />
-      <Botao />
+      <h1>Contadores que atualizam juntos</h1>
+      <Botao contador={contador} onClick={clique} />
+      <Botao contador={contador} onClick={clique} />
     </div>
   );
 };
