@@ -1,26 +1,19 @@
-import "./app.css"
+import AdminPanel from "./Components/AdminPanel";
+import LoginForm from "./Components/LoginForm";
 
-const user = {
-  name: "EdiJunior88",
-  imageUrl: "https://avatars.githubusercontent.com/u/13875907?v=4",
-  imageSize: 90,
-};
+// let content;
+let isLoggedIn = true;
+
+// if (isLoggedIn) {
+//   content = <AdminPanel />;
+// } else {
+//   content = <LoginForm />;
+// }
 
 const App = () => {
-  return (
-    <>
-      <h1>{user.name}</h1>
-      <img
-        className='avatar'
-        src={user.imageUrl}
-        alt={"Avatar de " + user.name}
-        style={{
-          width: user.imageSize,
-          height: user.imageSize
-        }}
-      />
-    </>
-  );
+  // return <div>{content}</div>;
+  // return <div>{isLoggedIn ? <AdminPanel /> : <LoginForm />}</div>;
+  return <div>{isLoggedIn && <AdminPanel />}</div>;
 };
 
 export default App;
