@@ -1,19 +1,19 @@
-import AdminPanel from "./Components/AdminPanel";
-import LoginForm from "./Components/LoginForm";
-
-// let content;
-let isLoggedIn = true;
-
-// if (isLoggedIn) {
-//   content = <AdminPanel />;
-// } else {
-//   content = <LoginForm />;
-// }
+const produtos = [
+  { titulo: "Couve", fruta:false, id: 1 },
+  { titulo: "Alho", fruta:false, id: 2 },
+  { titulo: "Maçã", fruta:true, id: 3 },
+];
 
 const App = () => {
-  // return <div>{content}</div>;
-  // return <div>{isLoggedIn ? <AdminPanel /> : <LoginForm />}</div>;
-  return <div>{isLoggedIn && <AdminPanel />}</div>;
+  const listaItens = produtos.map((produto) => (
+    <li
+      key={produto.id}
+      style={{ color: produto.fruta ? "magenta" : "darkgreen" }}>
+      {produto.titulo}
+    </li>
+  ));
+
+  return <ul>{listaItens}</ul>;
 };
 
 export default App;
