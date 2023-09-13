@@ -1,7 +1,22 @@
-import MeuBotao from "./Components/MeuBotao";
+import { useState } from "react";
 
-const App = () => {
-  return <button onClick={MeuBotao}>Clique aqui</button>;
-};
+export default function App() {
+  return (
+    <div>
+      <h1>A contagem sofre alterações separadas</h1>
+      <MeuBotao />
+      <br />
+      <MeuBotao />
+    </div>
+  );
+}
 
-export default App;
+function MeuBotao() {
+  const [contagem, setContagem] = useState(0);
+
+  function contagemClique() {
+    setContagem(contagem + 1);
+  }
+
+  return <button onClick={contagemClique}>Você clicou {contagem}x</button>;
+}
