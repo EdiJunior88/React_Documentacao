@@ -1,16 +1,25 @@
-import MyButton from "./Components/MyButton";
-import AboutPage from "./Pages/AboutPage";
-import "./App.css";
-import avatarImage from "./Img/avatar.png";
+import "./app.css"
+
+const user = {
+  name: "EdiJunior88",
+  imageUrl: "https://avatars.githubusercontent.com/u/13875907?v=4",
+  imageSize: 90,
+};
 
 const App = () => {
   return (
-    <div>
-      <h1>Bem vindo ao meu app</h1>
-      <MyButton />
-      <AboutPage />
-      <img className='avatar' src={avatarImage} />
-    </div>
+    <>
+      <h1>{user.name}</h1>
+      <img
+        className='avatar'
+        src={user.imageUrl}
+        alt={"Avatar de " + user.name}
+        style={{
+          width: user.imageSize,
+          height: user.imageSize
+        }}
+      />
+    </>
   );
 };
 
