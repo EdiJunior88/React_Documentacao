@@ -8,7 +8,9 @@
 <hr>
 
 <strong>Acesso à documentação (inglês):</strong> <a href="https://react.dev/learn">https://react.dev/learn</a>
-<br />
+
+<hr>
+
 <strong>Link do projeto: </strong> <a href="https://jogo-da-velha-react-documentacao.netlify.app/">https://jogo-da-velha-react-documentacao.netlify.app/</a>
 
 <hr>
