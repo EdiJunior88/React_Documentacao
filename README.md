@@ -8,6 +8,7 @@
 <hr>
 
 <strong>Acesso à documentação (inglês):</strong> <a href="https://react.dev/learn">https://react.dev/learn</a>
+<strong>Link do projeto: </strong> <a href="https://jogo-da-velha-react-documentacao.netlify.app/">https://jogo-da-velha-react-documentacao.netlify.app/</a>
 
 <hr>
 
@@ -21,6 +22,12 @@
   <li>Como responder a eventos e atualizar a tela</li>
   <li>Como compartilhar dados entre componentes</li>
 </ul>
+
+<hr>
+
+<h3>Status do Deploy</h3>
+
+[![Netlify Status](https://app.netlify.com/sites/jogo-da-velha-react-documentacao/deploys)
 
 <hr>
 
