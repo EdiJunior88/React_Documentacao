@@ -27,7 +27,7 @@
 
 <h3>Status do Deploy</h3>
 
-![Netlify Status](https://app.netlify.com/sites/jogo-da-velha-react-documentacao/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5d55ecb6-deaf-40b4-8a3c-145951b1ea3d/deploy-status)](https://app.netlify.com/sites/jogo-da-velha-react-documentacao/deploys)
 
 <hr>
 
