@@ -39,12 +39,6 @@ Para ver todas as tecnologias [clique aqui](/techstack.md)
 
 <hr>
 
-<h3>Status do Deploy</h3>
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5d55ecb6-deaf-40b4-8a3c-145951b1ea3d/deploy-status)](https://app.netlify.com/sites/jogo-da-velha-react-documentacao/deploys)
-
-<hr>
-
 <h3>Tempo Estudando a documentação</h3>
 
 <p>
