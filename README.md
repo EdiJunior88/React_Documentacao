@@ -11,7 +11,7 @@
 
 <hr>
 
-<strong>Link do projeto: </strong> <a href="https://jogo-da-velha-react-documentacao.netlify.app/">https://jogo-da-velha-react-documentacao.netlify.app/</a>
+<strong>Link do projeto: </strong> <a href=""></a>
 
 <hr>
 
